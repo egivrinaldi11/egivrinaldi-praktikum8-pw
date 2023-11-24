@@ -1,0 +1,43 @@
+header,
+footer {
+    height: 20vh;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+}
+
+.content {
+    height: 60vh;
+    display: flex;
+    border: 10px solid black;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    margin: 30px;
+}
+
+.article {
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+}
+
+article{
+    margin-top: 120px;
+}
+
+aside {
+    background-color: green;
+    flex-grow: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+}
